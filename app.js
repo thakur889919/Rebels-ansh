@@ -151,6 +151,7 @@ const openApp = (app) => {
 
   el.querySelector(".cls").addEventListener("click", () => {
     el.remove();
+     // changes
      delete wins[app];
      dockButton.classList.remove("run");
   });
