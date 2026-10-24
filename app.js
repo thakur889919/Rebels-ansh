@@ -151,6 +151,8 @@ const openApp = (app) => {
 
   el.querySelector(".cls").addEventListener("click", () => {
     el.remove();
+     delete wins[app];
+     dockButton.classList.remove("run");
   });
 
   // Drag the window by its title bar.
